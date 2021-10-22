@@ -4,7 +4,7 @@ const createPetModel = db => {
   return {
     findMany(filter) {
       return db.get('pet')
-        .filter(filter)
+        // .filter(filter)
         .value()
     },
 
