@@ -21,10 +21,19 @@ const typeDefs = gql`
 		type: String
 	}
 
+	input NewPetInput { 
+		name: String!
+		type: String!
+	}
+
 	type Query {
 		user: User
 		pet(input: PetInput): Pet
 		pets(input: PetInput): [Pet]!
+	}
+
+	type Mutation {
+		newPet(input: NewPetInput): Pet!
 	}
 
 `;

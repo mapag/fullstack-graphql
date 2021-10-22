@@ -15,4 +15,9 @@ module.exports = {
       return models.Pet.findMany(input)
     }
   },
+  Mutation: {
+    newPet(_, { input }, { models }) {
+      return models.Pet.create(input)
+    }
+  }
 }
