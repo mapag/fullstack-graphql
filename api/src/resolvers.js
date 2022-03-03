@@ -9,11 +9,11 @@ module.exports = {
       return models.User.findOne()
     },
     pets: (_, { input }, { models }) => {
-      return models.Pet.findMany(pet => pet.type === input.type)
+      return models.Pet.findMany(input)
 
     },
     pet: (_, { input }, { models }) => {
-      return models.Pet.findOne(pet => pet.type === input.type)
+      return models.Pet.findOne(input)
     }
   },
   // Mutation: {
