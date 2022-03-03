@@ -5,11 +5,15 @@
 
 module.exports = {
   Query: {
-    user: (_,__,{models}) => {
+    user: (_, __, { models }) => {
       return models.User.findOne()
     },
-    pets: (_,__,{models}) => {
-      return models.Pet.findMany()
+    pets: (_, { input }, { models }) => {
+      return models.Pet.findMany(pet => pet.type === input.type)
+
+    },
+    pet: (_, { input }, { models }) => {
+      return models.Pet.findOne(pet => pet.type === input.type)
     }
   },
   // Mutation: {
