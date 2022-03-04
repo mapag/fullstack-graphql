@@ -28,11 +28,21 @@ module.exports = {
     }
   },
   Pet: {
+    __resolveType(pet, { constants }) {
+      return pet.weight > constants.BIG_PET_WEIGHT ? 'BigPet' : 'SmallPet'
+    },
+
     // img(pet) {
     //   return pet.type === 'DOG'
     //     ? 'https://placedog.net/300/300'
     //     : 'http://placekitten.com/300/300'
     // }
+  },
+  SmallPet: {
+    // Just to try field resolvers. if there's a cat type, transform it to CAT to comply with PetType
+    type(pet) {
+      return pet.type.toUpperCase()
+    }
   },
   User: {
 
