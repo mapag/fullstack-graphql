@@ -8,61 +8,29 @@
       "id": "63471caf-d980-4ee2-8b23-b9687160be1a",
       "createdAt": 1646347534262,
       "name": "Pandora",
-      "type": "Water moccasin"
+      "type": "DOG",
+      "weight": 20
     },
     {
       "id": "2bc0cbb8-050a-4897-8e36-d17a97645894",
       "createdAt": 1646347534262,
       "name": "Rodie",
-      "type": "Stork, white"
+      "type": "cat",
+      "weight": 20
     },
     {
       "id": "da4b7272-8cae-48fb-87ba-28e2260567ca",
       "createdAt": 1646347534262,
       "name": "Reinhard",
-      "type": "Marine iguana"
+      "type": "CAT",
+      "weight": 20
     },
     {
       "id": "e22fc6a1-821d-4cd7-bca8-c1f4d38eeccb",
       "createdAt": 1646347534262,
       "name": "Bartel",
-      "type": "Llama"
-    },
-    {
-      "id": "6cb9afc4-5af6-47f9-914e-2046c646506b",
-      "createdAt": 1646347534262,
-      "name": "Gallard",
-      "type": "Eastern white pelican"
-    },
-    {
-      "id": "6543ccaf-56b2-468b-9fa2-8a6f6b9f0358",
-      "createdAt": 1646347534262,
-      "name": "Myrtia",
-      "type": "Western lowland gorilla"
-    },
-    {
-      "id": "9000631e-887a-4174-be37-c99aaa9cd2fb",
-      "createdAt": 1646347534262,
-      "name": "Vincenty",
-      "type": "Cape starling"
-    },
-    {
-      "id": "df0c6e1f-19fb-4326-991d-f5cfaa96a17b",
-      "createdAt": 1646347534262,
-      "name": "Lavena",
-      "type": "Llama"
-    },
-    {
-      "id": "495d5ea2-ddde-4ab2-9780-18701c0e42ef",
-      "createdAt": 1646347534262,
-      "name": "Jodi",
-      "type": "Red kangaroo"
-    },
-    {
-      "id": "8a8673c3-1937-467e-8577-80fabbb1fa8f",
-      "createdAt": 1646347534262,
-      "name": "Hillery",
-      "type": "Turkey, common"
+      "type": "DOG",
+      "weight": 70
     }
   ]
 }
