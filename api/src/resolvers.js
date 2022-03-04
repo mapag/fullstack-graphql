@@ -16,16 +16,24 @@ module.exports = {
       return models.Pet.findOne(input)
     }
   },
-  // Mutation: {
-
-  // },
-  // Pet: {
-  //   img(pet) {
-  //     return pet.type === 'DOG'
-  //       ? 'https://placedog.net/300/300'
-  //       : 'http://placekitten.com/300/300'
-  //   }
-  // },
+  Mutation: {
+    createPet: (_, { input }, { models }) => {
+      return models.Pet.create(input)
+    },
+    updatePet: (_, { input }, { models }) => {
+      return models.Pet.update(input.id, input.fields)
+    },
+    deletePet: (_, { input }, { models }) => {
+      return models.Pet.delete(input)
+    }
+  },
+  Pet: {
+    // img(pet) {
+    //   return pet.type === 'DOG'
+    //     ? 'https://placedog.net/300/300'
+    //     : 'http://placekitten.com/300/300'
+    // }
+  },
   User: {
 
   }
