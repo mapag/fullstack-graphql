@@ -13,6 +13,7 @@ const typeDefs = gql`
 	type User {
 		id: ID!
 		username: String!
+		pets: [Pet]!
 	}
 
 	interface Pet {
@@ -22,6 +23,7 @@ const typeDefs = gql`
 		weight: Float!
 		createdAt: String!
 		img: String
+		owner: User!
 	}
 
 	type BigPet implements Pet {
@@ -31,6 +33,7 @@ const typeDefs = gql`
 		weight: Float!
 		createdAt: String!
 		img: String
+		owner: User!
 		hasClaw: Boolean
 	}
 
@@ -41,6 +44,7 @@ const typeDefs = gql`
 		weight: Float!
 		createdAt: String!
 		img: String
+		owner: User!
 		hasLegs: Boolean
 	}
 

@@ -9,28 +9,32 @@
       "createdAt": 1646347534262,
       "name": "Pandora",
       "type": "DOG",
-      "weight": 20
+      "weight": 20,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "2bc0cbb8-050a-4897-8e36-d17a97645894",
       "createdAt": 1646347534262,
       "name": "Rodie",
       "type": "cat",
-      "weight": 20
+      "weight": 20,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "da4b7272-8cae-48fb-87ba-28e2260567ca",
       "createdAt": 1646347534262,
       "name": "Reinhard",
       "type": "CAT",
-      "weight": 20
+      "weight": 20,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "e22fc6a1-821d-4cd7-bca8-c1f4d38eeccb",
       "createdAt": 1646347534262,
       "name": "Bartel",
       "type": "DOG",
-      "weight": 70
+      "weight": 70,
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
